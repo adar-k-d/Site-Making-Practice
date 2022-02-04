@@ -1,0 +1,20 @@
+.pics{
+    line-height: 0;
+    column-count: 2;
+    column-gap: 10px;
+}
+.pics img{
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    filter: grayscale();
+}
+.pics img:hover{
+    transition: filter 0.5s;
+    filter: none;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
