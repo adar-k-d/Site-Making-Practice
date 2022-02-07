@@ -19,8 +19,30 @@ body{
     background-color: rgb(0, 0, 0);
 }
 
-.text{
+.text a:link{
     color: rgb(228, 72, 248);
     font-family: sans-serif;
     margin-left: 10px;
+    text-decoration: none;
+    background-color: rgb(20, 14, 36);
+    border-radius: 5px;
+}
+
+.text a:visited{
+    color: rgb(228, 72, 248);
+    font-family: sans-serif;
+    margin-left: 10px;
+    text-decoration: none;
+    background-color: rgb(20, 14, 36);
+    border-radius: 5px;   
+}
+
+.text a:hover{
+    transition: 0.25s;
+    color: rgb(246, 177, 255);
+    font-family: sans-serif;
+    margin-left: 10px;
+    text-decoration: none;
+    background-color: rgb(39, 21, 90);
+    border-radius: 5px;    
 }
