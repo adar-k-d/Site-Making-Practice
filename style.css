@@ -18,3 +18,9 @@
 body{
     background-color: rgb(0, 0, 0);
 }
+
+.text{
+    color: rgb(228, 72, 248);
+    font-family: sans-serif;
+    margin-left: 10px;
+}
